@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'el',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Για να χρησιμοποιήσετε το reCaptcha πρέπει να δημιουργήσετε ένα λογαριασμό στο <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'Ο κώδικας οπτικής επιβεβαίωσης που υποβάλετε ήταν λανθασμένος',
+	'RECAPTCHA_INCORRECT'			=> 'Η λύση που υποβάλετε ήταν λανθασμένη',
 	'RECAPTCHA_NOSCRIPT'			=> 'Παρακαλούμε ενεργοποιήστε το JavaScript στον περιηγητή σας για να φορτώσετε αυτή την πρόκληση.', //Please enable JavaScript in your browser to load the challenge.
 
 	'RECAPTCHA_PUBLIC'				=> 'Δημόσιο κλειδί reCaptcha',
@@ -51,5 +51,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Προσωπικό κλειδί reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Το προσωπικό σας κλειδί reCaptcha. Κλειδιά μπορούν να αποκτηθούν από το <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Σε μια προσπάθεια για να αποτραπούν αυτοματοποιημένες υποβολές, απαιτείται να εισάγετε το κείμενο που εμφανίζεται στο παρακάτω πεδίο.',
+	'RECAPTCHA_EXPLAIN'				=> 'Σε μια προσπάθεια για να αποτραπούν αυτοματοποιημένες υποβολές, απαιτείται να ολοκληρώσετε την ακόλουθη πρόκληση.',
 ));

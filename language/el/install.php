@@ -70,9 +70,8 @@ $lang = array_merge($lang, array(
 
 	<p>Το phpBB3 υποστηρίζει τις ακόλουθες βάσεις δεδομένων:</p>
 	<ul>
-		<li>MySQL 3.23 ή νεότερη (MySQLi υποστήριξη)</li>
+		<li>MySQL 3.23 ή νεότερη (MySQLi υποστηρίζεται)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ή νεώτερο (άμεσα ή μέσω ODBC)</li>
 		<li>MS SQL Server 2005 ή νεώτερο (native)</li>
@@ -113,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'Το phpBB <strong>δεν</strong> θα λειτουργήσει εάν η εγκατάσταση της PHP δεν έχει δημιουργηθεί με υποστήριξη UTF-8 στην επέκταση PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Υποστήριξη PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Για να λειτουργήσει σωστά το phpBB, η επέκταση PHP JSON πρέπει να είναι διαθέσιμη.',
+	'PHP_XML_SUPPORT'					=> 'Υποστήριξη PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Για να λειτουργεί σωστά το phpBB, η προσθήκη PHP XML/DOM πρέπει να είναι διαθέσιμη.',
 	'PHP_SUPPORTED_DB'					=> 'Υποστηριζόμενες βάσεις δεδομένων',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Πρέπει να έχετε υποστήριξη για τουλάχιστον μία συμβατή βάση δεδομένων μέσα σε PHP. Εάν δεν υπάρχουν μονάδες βάσης δεδομένων που εμφανίζονται ως διαθέσιμες, πρέπει να επικοινωνήσετε με τον πάροχο φιλοξενίας σας ή να ανατρέξετε στη σχετική τεκμηρίωση εγκατάστασης της PHP για συμβουλές.',
 
@@ -178,18 +179,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Κωδικός βάσης δεδομένων',
 	'DB_NAME'				=> 'Όνομα βάσης δεδομένων',
 	'DB_USERNAME'			=> 'Όνομα χρήστη βάσης δεδομένων',
+	'DATABASE_VERSION'		=> 'Έκδοση Βάσης Δεδομένων',
 	'TABLE_PREFIX'			=> 'Πρόθεμα για τους πίνακες στη βάση δεδομένων',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Το πρόθεμα πρέπει να ξεκινάει με ένα γράμμα και πρέπει να περιέχει μόνο γράμματα, αριθμούς και κάτω παύλες.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -202,7 +202,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'Κανένα μήνυμα λάθους δεν δόθηκε.',
 	'INST_ERR_PREFIX'				=> 'Πίνακες με το καθορισμένο πρόθεμα υπάρχουν ήδη, παρακαλώ επιλέξτε ένα άλλο.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Η έκδοση της MySQL που είναι εγκατεστημένη σε αυτό το μηχάνημα δεν είναι συμβατή με την “MySQL με MySQLi Extension” που έχετε επιλέξει. Παρακαλώ δοκιμάστε την επιλογή “MySQL” αντί αυτού.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'Η έκδοση της επέκτασης SQLite που έχετε εγκαταστημένη είναι πολύ παλαιά, θα πρέπει να αναβαθμιστεί σε τουλάχιστον 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Η έκδοση της επέκτασης SQLite που έχετε εγκατεστημένη είναι πολύ παλαιά, θα πρέπει να αναβαθμιστεί σε τουλάχιστον 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Η έκδοση της Oracle που είναι εγκατεστημένη σε αυτό το μηχάνημα απαιτεί από εσάς να ρυθμίσετε την παράμετρο <var>NLS_CHARACTERSET</var> σε <var>UTF8</var>. Είτε αναβαθμίσετε την εγκατάσταση σας σε 9.2+ ή αλλάξετε την παράμετρο.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Η βάση δεδομένων που έχετε επιλέξει δεν δημιουργήθηκε σε κωδικοποίηση <var>UNICODE</var> ή σε <var>UTF8</var>. Προσπαθήστε να εγκαταστήσετε σε μια βάση δεδομένων με κωδικοποίηση <var>UNICODE</var> ή <var>UTF8</var>.',
@@ -212,6 +211,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'Ρυθμίσεις ηλεκτρονικού ταχυδρομείου',
+
+	// Package info
+	'PACKAGE_VERSION'					=> 'Εγκατεστημένη έκδοση πακέτου',
+	'UPDATE_INCOMPLETE'				=> 'Η εγκατάσταση του phpBB δεν έχει ενημερωθεί σωστά.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Παρακαλώ διαβάστε τις παρακάτω πληροφορίες για να διορθώσετε αυτό το σφάλμα.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Ελειπής ενημέρωση</h1>
+
+		<p>Παρατηρήσαμε ότι η τελευταία ενημέρωση για το phpBB δεν έχει ολοκληρωθεί. Επισκευτείτε το <a href="%1$s" title="%1$s">πρόγραμμα ενημέρωσης βάσης δεδομένων</a>, βεβαιωθείτε ότι είναι επιλεγμένο μόνο η επιλογή <em>Ενημέρωση βάσης μόνο</em> και πατήστε στο <strong>Υποβολή</strong>. Μην ξεχάσετε να διαγράψετε τον φάκελο εγκατάστασης "install" μετά την επιτυχή ενημέρωση της βάσης.</p>',
 
 	//
 	// Server data
@@ -294,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Εγκατάσταση μονάδων',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Εγκατάσταση ενσωματωμένων επεκτάσεων',
 	'TASK_NOTIFY_USER'			=> 'Αποστολή ηλεκτρονικού ταχυδρομείου ειδοποίησης',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
 
@@ -306,16 +314,16 @@ $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Η μονάδα δεν βρέθηκε',
 	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Μια μονάδα δεν βρέθηκε διότι η υπηρεσία %s είναι απροσδιόριστη.',
 
-	'TASK_NOT_FOUND'				=> 'Task not found',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.',
+	'TASK_NOT_FOUND'				=> 'Η διαδικασία δε βρέθηκε',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Μια διαδικασία δεν ήταν δυνατό να βρεθεί, διότι η υπηρεσία, %s, δεν έχει οριστεί.',
 
 	'SKIP_MODULE'	=> 'Παράκαμψη μονάδας “%s”',
-	'SKIP_TASK'		=> 'Skip “%s” task',
+	'SKIP_TASK'		=> 'Παράκαμψη διαδικασίας “%s”',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Όλες οι υπηρεσίες διαδικασιών εγκατάστασης πρέπει να ξεκινάνε με “installer”',
 	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.',
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Το αρχείο ρυθμίσεων εγκατάστασης δεν είναι εγγράψιμο.',
 ));
 
 // CLI messages
@@ -401,7 +409,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_CHECK_FILES'	=> 'Έλεγχος αρχείων για αναβάθμιση',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'The file differ failed to open %s.',
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Το πρόγραμμα ελέγχου διαφορών αρχείων απέτυχε να ανοίξει το %s.',
 
 	'UPDATE_FILE_DIFF'		=> 'Έλεγχος για διαφορές σε τροποποιημένα αρχεία',
 	'ALL_FILES_DIFFED'		=> 'Όλα τα τροποποιημένα αρχεία ελέγχθηκαν για διαφορές.',
@@ -432,13 +440,14 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Τα παρακάτω αρχεία δεν έχουν τροποποιηθεί και αντιπροσωπεύουν τα αυθεντικά αρχεία του phpBB της έκδοσης από την οποία θέλετε να αναβαθμίσετε.',
 	'FILES_UP_TO_DATE'				=> 'Ήδη αναβαθμισμένα αρχεία',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Τα ακόλουθα αρχεία είναι ήδη ενημερωμένα και δεν χρειάζεται να αναβαθμιστούν.',
+	'FILES_VERSION'					=> 'Έκδοση αρχείων',
 	'TOGGLE_DISPLAY'				=> 'Εμφάνιση/Απόκρυψη λίστας αρχείων',
 
 	// File updater
-	'UPDATE_UPDATING_FILES'				=> 'Αναβάθμιση αρχείων',
+	'UPDATE_UPDATING_FILES'	=> 'Αναβάθμιση αρχείων',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'File updater “%1$s“ has failed. The installer will try to fallback to “%2$s“.',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'The file updater failed. No further fallback methods are available.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'Το πρόγραμμα ενημέρωσης αρχείων “%1$s“ απέτυχε. Το πρόγραμμα εγκατάστασης θα προσπαθήσει να επαναφέρει το “%2$s“.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'Το πρόγραμμα ενημέρωσης αρχείων απέτυχε. Δεν είναι δυνατή κάποια άλλη μέθοδος επαναφοράς.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Συνέχιση αναβάθμισης σε εξέλιξη',
 	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Επανέλεχος αρχείων',
@@ -449,6 +458,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Αναβάθμιση βάσης δεδομένων',
 
 	'INLINE_UPDATE_SUCCESSFUL'	=> 'Η αναβάθμιση της βάσης δεδομένων ήταν επιτυχής.',
+	
+	'TASK_UPDATE_EXTENSIONS'	=> 'Ενημέρωση επεκτάσεων',
 ));
 
 // Converter
