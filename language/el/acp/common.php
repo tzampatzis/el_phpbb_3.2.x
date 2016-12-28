@@ -308,7 +308,7 @@ $lang = array_merge($lang, array(
 
 	'RELEASE_ANNOUNCEMENT'	=> 'Ανακοίνωση',
 	'REMIND'				=> 'Υπενθύμιση',
-	'REPARSE_LOCK_ERROR'	=> 'Νέα ανάλυση είναι ήδη σε εξέλιξη από κάποια άλλη διαδικασία.', // Reparsing is already in progress by another process.
+	'REPARSE_LOCK_ERROR'	=> 'Νέα ανάλυση είναι ήδη σε εξέλιξη από κάποια άλλη διαδικασία.',
 	'RESYNC'				=> 'Επανασυγχρονισμός',
 
 	'RUNNING_TASK'			=> 'Εκτέλεση εργασίας: %s.',
