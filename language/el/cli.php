@@ -9,8 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Ελληνική μετάφραση από την ομάδα του phpbbgr.com (dimitris):
-* (http://phpbbgr.com/team/)
+* Ελληνική μετάφραση από την ομάδα του phpbbgr.com
 *
 */
 
@@ -89,7 +88,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Επαναδημιουργία όλων των μικρογραφιών.',
 	
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Έλεγχος αν το σύστημα είναι ενημερωμένο.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Όνομα της επέκτασης προς έλεγχο (Αν είναι στο όλα, ελέγχονται όλες οι επεκτάσεις)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Όνομα της επέκτασης προς έλεγχο (Αν είναι στο "all", ελέγχονται όλες οι επεκτάσεις)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Εκτέλεση εντολής ελέγχου με προσωρινή μνήμη (cache).',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Εκτέλεση εντολής με επιλογή ελέγχου μόνο σταθερών ή ασταθών εκδόσεων.',
 

@@ -6,8 +6,7 @@
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* Ελληνική μετάφραση από την ομάδα του phpbbgr.com (dimitris):
-* (http://phpbbgr.com/team/)
+* Ελληνική μετάφραση από την ομάδα του phpbbgr.com
 *
 */
 
