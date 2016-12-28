@@ -68,7 +68,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'		=> 'Εκτέλεση σε ασφαλή λειτουργία (χωρίς επεκτάσεις).',
 	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Εκκίνηση του κελύφους.',
 
-	'CLI_DESCRIPTION_PURGE_EXTENSION'					=> 'Εκκαθαρίζει τη συγκεκριμένη επέκταση.',
+	'CLI_DESCRIPTION_PURGE_EXTENSION'		=> 'Εκκαθαρίζει τη συγκεκριμένη επέκταση.',
+	
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Λίστα τύπων κειμένου που μπορεί να γίνει νέα ανάλυση.', // Lists the types of text that can be reparsed.
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparses stored text with the current text_formatter services.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Τύπος κειμένου για νέα ανάλυση. Αφήστε το κενό για να γίνει νέα ανάλυση σε όλα.', // Type of text to reparse. Leave blank to reparse everything.
@@ -77,13 +78,22 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Υψηλότερος αριθμός εγγραφής σε διαδικασία', // Highest record ID to process
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Κατά προσέγγιση αριθμός εγγραφών για την επεξεργασία σε έναν χρόνο', // Approximate number of records to process at a time
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Εκκίνηση ανάλυσης από το σημείο το οποίο η προηγούμενη εκτέλεση σταμάτησε', // Start reparsing where the last execution stopped',
+
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Επανυπολογίζει τη στήλη user_email_hash του πίνακα των μελών.',
+
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Καθορίζει μια τιμή επιλογής ρύθμισης μόνο εάν η παλιά ταιριάζει με την τρέχουσα τιμή',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Καθορίζει μια τιμή επιλογής ρύθμισης',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Διαγραφή όλων των μικρογραφιών που υπάρχουν.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Δημιουργία όλων των μικρογραφιών που λείπουν.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Επαναδημιουργία όλων των μικρογραφιών.',
+	
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Έλεγχος αν το σύστημα είναι ενημερωμένο.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Όνομα της επέκτασης προς έλεγχο (Αν είναι στο όλα, ελέγχονται όλες οι επεκτάσεις)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Εκτέλεση εντολής ελέγχου με προσωρινή μνήμη (cache).',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Εκτέλεση εντολής με επιλογή ελέγχου μόνο σταθερών ή ασταθών εκδόσεων.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Ενεργοποίηση (ή απενεργοποίηση) λογαριασμού μέλους.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Όνομα μέλους του λογαρισμού για ενεργοποίηση.',
@@ -107,6 +117,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Όνομα επέκτασης',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Δεν ήταν δυνατή η εκκαθάριση της επέκτασης %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Επιτυχής εκκαθάριση της επέκτασης %s',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Δεν μπορεί να ενημερωθεί η επέκταση %s',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Επιτυχής ενημέρωση επέκτασης %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Δεν βρέθηκαν επεκτάσεις.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Διαθέσιμο',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Απενεργοποιημένο',

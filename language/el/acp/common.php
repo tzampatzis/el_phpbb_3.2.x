@@ -111,6 +111,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Προσβάσεις ομάδας',
 	'ACP_GROUPS_POSITION'			=> 'Διαχείριση θέσεων ομάδας',
 
+	'ACP_HELP_PHPBB'			=> 'Βοηθήστε να υποστηριχθεί το phpBB',
+	
 	'ACP_ICONS'					=> 'Εικονίδια θεμάτων',
 	'ACP_ICONS_SMILIES'			=> 'Εικονίδια θέματος / Εικονίδια smilies',
 	'ACP_INACTIVE_USERS'		=> 'Ανενεργά μέλη',
@@ -170,7 +172,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Ρυθμίσεις αναζήτησης',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Ρυθμίσεις ασφαλείας',
-	'ACP_SEND_STATISTICS'		=> 'Αποστολή πληροφοριών στατιστικών',
 	'ACP_SERVER_CONFIGURATION'	=> 'Παραμετροποίηση διακομιστή',
 	'ACP_SERVER_SETTINGS'		=> 'Ρυθμίσεις διακομιστή',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Ρυθμίσεις υπογραφών',
@@ -329,6 +330,10 @@ $lang = array_merge($lang, array(
 	'UCP'					=> 'Πίνακας Ελέγχου Μέλους',
 	'USERNAMES_EXPLAIN'		=> 'Τοποθετήστε κάθε όνομα μέλους σε διαφορετική γραμμή.',
 	'USER_CONTROL_PANEL'	=> 'Πίνακας ελέγχου μέλους',
+	
+	'UPDATE_NEEDED'			=> 'Το σύστημα δεν είναι ενημερωμένο.',
+	'UPDATE_NOT_NEEDED'		=> 'Το σύστημα είναι ενημερωμένο.',
+	'UPDATES_AVAILABLE'		=> 'Διαθέσιμες ενημερώσεις:',
 
 	'WARNING'				=> 'Προειδοποίηση',
 ));
@@ -477,16 +482,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Το μέλος είναι ανενεργό',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Παρακαλούμε στείλτε πληροφορίες σχετικά με τον διακομιστή και τη διαμόρφωση του συστήματος συζητήσεών σας στο phpBB για στατιστική ανάλυση. Όλες οι πληροφορίες οι οποίες θα μπορούσαν να εντοπίσουν εσάς ή την ιστοσελίδα σας έχουν αφαιρεθεί, τα στοιχεία είναι εντελώς <strong>ανώνυμα</strong>. Βασίζουμε τις αποφάσεις σχετικά με μελλοντικές εκδόσεις phpBB σε αυτές τις πληροφορίες. Τα στατιστικά στοιχεία διατίθενται δημοσίως. Μοιραζόμαστε επίσης αυτά τα δεδομένα με το έργο της PHP, τη γλώσσα προγραμματισμού phpBB με την οποία είναι κατασκευασμένο.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Χρησιμοποιώντας το κουμπί παρακάτω μπορείτε να κάνετε προεπισκόπηση όλες τις μεταβλητές οι οποίες θα διαβιβαστούν.',
 	'DONT_SEND_STATISTICS'		=> 'Επιστροφή στον ΠΕΔ εάν δεν θέλετε να στείλετε πληροφορίες στατιστικών στο phpBB.',
 	'GO_ACP_MAIN'				=> 'Μετάβαση στην αρχική σελίδα του ΠΕΔ',
 	'HIDE_STATISTICS'			=> 'Απόκρυψη λεπτομερειών',
-	'SEND_STATISTICS'			=> 'Αποστολή στατιστικών πληροφοριών',
+	'SEND_STATISTICS'			=> 'Αποστολή στατιστικών',
+	'SEND_STATISTICS_LONG'		=> 'Αποστολή στατιστικών πληροφοριών',
 	'SHOW_STATISTICS'			=> 'Προβολή λεπτομερειών',
 	'THANKS_SEND_STATISTICS'	=> 'Σας ευχαριστούμε για την υποβολή των πληροφοριών σας.',
+	'FAIL_SEND_STATISTICS'		=> 'Το phpBB δεν μπόρεσε να αποστείλει στατιστικά',
 ));
 
 // Log Entries
@@ -819,4 +826,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Επέκταση ενεργοποιήθηκε</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Επέκταση απενεργοποιήθηκε</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Δεδομένα επέκτασης διαγράφηκαν</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Η επέκταση ενημερώθηκε</strong><br />» %s',
 ));

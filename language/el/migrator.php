@@ -54,12 +54,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'Η ενσωμάτωση "%s" δεν εγκαταστάθηκε.',
 	'MIGRATION_NOT_VALID'				=> 'Η %s δεν είναι μια έγκυρη ενσωμάτωση.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Εγκατεστημένο σχήμα: %1$s, Χρόνος: %2$.2f δευτερόλεπτα',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Εγκατάσταση σχήματος: %1$s; Χρόνος: %2$.2f δευτερόλεπτα',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Εγκατάσταση σχήματος: %s.',
 	
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Επαναφερθέντα δεδομένα: %1$s, Χρόνος: %2$.2f δευτερόλεπτα',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Επαναφορά δεδομένων: %1$s, Χρόνος: %2$.2f δευτερόλεπτα',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Επαναφορά δεδομένων: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Επαναφερθέντα Schema: %1$s, Χρόνος: %2$.2f δευτερόλεπτα',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Επαναφορά Schema: %1$s; Χρόνος: %2$.2f δευτερόλεπτα',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Επαναφορά Schema: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Η ενσωμάτωση δεν είναι έγκυρη. Σε έναν βοηθό συνθήκης if λείπει μια συνθήκη.',
@@ -70,9 +72,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Η ενσωμάτωση δεν είναι έγκυρη. Αντιμετωπίστηκε μια άγνωστη μέθοδος εργαλείου ενσωμάτωσης.',
 
 	'MODULE_ERROR'						=> 'Παρουσιάστηκε σφάλμα κατά τη δημιουργία μιας μονάδας: %s',
+	'MODULE_EXISTS'						=> 'Μια μονάδα υπάρχει ήδη: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Υπάρχουν πολλές μονάδες με το δεδομένο όνομα γονέα: %s. Προσπαθήστε να χρησιμοποιήσετε τα κουμπιά επόμενο/προηγούμενο για να καθορίσετε τη θέση της μονάδας.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Ένα απαραίτητο αρχείο πληροφοριών για τη μονάδα λείπει: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Η απαιτούμενη μονάδα δεν υπάρχει: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Δεν ήταν δυνατό να καθοριστεί το αναγνωριστικό της μονάδας γονέα: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Η ρύθμιση δικαιωμάτων "%s" απροσδόκητα δεν υπάρχει.',
 
 	'ROLE_NOT_EXIST'					=> 'Ο ρόλος δικαιωμάτων "%s" απροσδόκητα δεν υπάρχει.',

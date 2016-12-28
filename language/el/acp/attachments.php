@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Διαστάσεις συνδέσμου εικόνας',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Προβολή συνημμένης εικόνας ως σύνδεσμος κειμένου αν η εικόνα είναι μεγαλύτερη από αυτό. Για να απενεργοποιήσετε αυτή τη συμπεριφορά, ρυθμίστε τις τιμές σε 0px επί 0px.',
-	'IMAGICK_PATH'				=> 'Διαδρομή Imagemagick',
+	'IMAGICK_PATH'				=> 'Διαδρομή ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Πλήρης διαδρομή για την εφαρμογή μετατροπής imagemagick, π.χ. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Μέγιστος αριθμός συνημμένων ανά δημοσίευση',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'		=> 'Αφαίρεση ή από-εξαίρεση <em>μη επιτρεπτών</em> διευθύνσεων IP / ονόματα εξυπηρετητών',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Είστε σίγουρος (-η) ότι θέλετε να επανασυγχρονίσετε τα αρχεία στατιστικών;',
 
-	'SEARCH_IMAGICK'				=> 'Αναζήτηση για Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Αναζήτηση για ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Λίστα επιτρεπτών / μη επιτρεπτών',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Αλλάζει την προεπιλεγμένη συμπεριφορά όταν οι ασφαλείς μεταφορτώσεις είναι ενεργοποιημένες στη λίστα επιτρεπτών / μη επιτρεπτών με εκείνη μιας <strong>λίστας επιτρεπόμενων</strong> (Allow) ή μιας <strong>μαύρης λίστας</strong> (Deny).',
 	'SECURE_DOWNLOADS'				=> 'Ενεργοποιήστε ασφαλείς μεταφορτώσεις',

@@ -578,6 +578,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Θύρα διακομιστή SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Αλλάξτε το μόνο εάν γνωρίζετε ότι ο διακομιστής SMTP είναι σε μια διαφορετική θύρα.',
 	'SMTP_SERVER'					=> 'Διεύθυνση διακομιστή SMTP',
+	'SMTP_SERVER_EXPLAIN'			=> 'Σημει΄ψστε ότι πρέπει να περέχετε και το πρωτόκολλο που χρησιμοποιεί ο διακομιστής σας. Αν χρησιμοποιείται SSL, πρέπει να το γράψετε "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'Ρυθμίσεις SMTP',
 	'SMTP_USERNAME'					=> 'Όνομα χρήστη SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Εισάγετε ένα όνομα χρήστη μόνο εάν ο διακομιστής SMTP το απαιτεί',

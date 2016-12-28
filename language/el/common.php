@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Το διακριτικό OAuth δεν αποθηκεύτηκε.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Το διακριτικό OAuth αποθηκεύτηκε εσφαλμένα.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Η φόρτωση απορρίφθηκε επειδή το αρχείο προς φόρτωση προσδιορίστηκε ως πιθανό διάνυσμα επίθεσης.',
