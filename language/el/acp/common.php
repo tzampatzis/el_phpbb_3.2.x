@@ -683,7 +683,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Άλλαξε ο συγγραφέας στο θέμα “%1$s”</strong><br />» από %2$s σε %3$s',
 
-	'LOG_MODULE_DISABLE'	=> '<strong>Απενεργοποιήθηκε μονάδα/strong><br />» %s',
+	'LOG_MODULE_DISABLE'	=> '<strong>Απενεργοποιήθηκε μονάδα</strong><br />» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>Ενεργοποιήθηκε μονάδα</strong><br />» %s',
 	'LOG_MODULE_MOVE_DOWN'	=> '<strong>Μετακινήθηκε μονάδα προς τα κάτω</strong><br />» %1$s κάτω από %2$s',
 	'LOG_MODULE_MOVE_UP'	=> '<strong>Μετακινήθηκε μονάδα προς τα πάνω</strong><br />» %1$s πάνω από %2$s',

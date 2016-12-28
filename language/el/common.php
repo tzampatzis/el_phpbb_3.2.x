@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'					=> 'Όλες τις Δ. Συζητήσεις',
 	'ALL_MESSAGES'					=> 'Όλα τα μηνύματα',
 	'ALL_POSTS'						=> 'Όλες τις δημοσιεύσεις',
-	'ALL_TIMES'						=> 'Όλοι οι χρόνοι είναι <abbr title="%2$s">%1$s</abbr>',
+	'ALL_TIMES'						=> 'Όλοι οι χρόνοι είναι <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'Όλα τα θέματα',
 	'ALT_TEXT'						=> 'Εναλλακτικό κείμενο',
 	'AND'							=> 'Και',
