@@ -70,6 +70,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'		=> 'Εκκαθαρίζει τη συγκεκριμένη επέκταση.',
 	
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Λίστα τύπων κειμένου που μπορεί να γίνει νέα ανάλυση.', // Lists the types of text that can be reparsed.
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Διαθέσιμα εργαλεία ανάλυσης:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparses stored text with the current text_formatter services.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Τύπος κειμένου για νέα ανάλυση. Αφήστε το κενό για να γίνει νέα ανάλυση σε όλα.', // Type of text to reparse. Leave blank to reparse everything.
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Να μην αποθηκευτεί καμία αλλαγή, απλά να εκτυπωθεί ό,τι θα συνέβαινε', // Do not save any changes; just print what would happen
