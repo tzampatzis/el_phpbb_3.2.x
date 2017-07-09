@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'		=> 'Απενεργοποιεί τη συγκεκριμένη επέκταση.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'		=> 'Ενεργοποιεί τη συγκεκριμένη επέκταση.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'		=> 'Βρίσκει ενσωματώσεις που δεν εξαρτώταν από άλλες.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Επισκευάζει την δενδρική δομή των Δ. συζητήσεων και των μονάδων.',
 	'CLI_DESCRIPTION_GET_CONFIG'			=> 'Παίρνει μια τιμή επιλογής ρύθμισης',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'		=> 'Προσαυξάνει ακέραια μια τιμή επιλογής ρύθμισης',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'		=> 'Απαριθμεί όλες τις επεκτάσεις στη βάση δεδομένων και στο σύστημα αρχείων.',
@@ -93,7 +94,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Εκτέλεση εντολής ελέγχου με προσωρινή μνήμη (cache).',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Εκτέλεση εντολής με επιλογή ελέγχου μόνο σταθερών ή ασταθών εκδόσεων.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Ενημερώνει ληγμένους κατακερματισμένους κωδικούς για να αναδημιουργηθούν με τη λειτουργία bcrypt.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" πρέπει να ρυθμιστεί σε "σταθερό" ή "ασταθές".',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Ενεργοποίηση (ή απενεργοποίηση) λογαριασμού μέλους.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Όνομα μέλους του λογαρισμού για ενεργοποίηση.',
@@ -112,8 +115,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Δεν ήταν δυνατή η απενεργοποίηση της επέκτασης %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Επιτυχής απενεργοποίηση της επέκτασης %s',
+	'CLI_EXTENSION_DISABLED'			=> 'Η επέκταση %s δεν είναι ενεργοποιημένη',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Δεν ήταν δυνατή η ενεργοποίηση της επέκτασης %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Επιτυχής ενεργοποίηση της επέκτασης %s',
+	'CLI_EXTENSION_ENABLED'				=> 'Η επέκταση %s είναι ήδη ενεργοποιημένη',
 	'CLI_EXTENSION_NAME'				=> 'Όνομα επέκτασης',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Δεν ήταν δυνατή η εκκαθάριση της επέκτασης %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Επιτυχής εκκαθάριση της επέκτασης %s',
@@ -124,9 +129,11 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Απενεργοποιημένο',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ενεργοποιημένο',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Επιτυχής επισκευή δενδρικής δομής Δ. συζητήσεων και μονάδων.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Επιτυχής επανυπολογισμός όλων των hashes ηλεκτρονικών ταχυδρομείων.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Επιτυχής ενημέρωση ληγμένων κατακερματισμένων κωδικών με bcrypt.',
 
-	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).',
+	'CLI_MIGRATION_NAME'					=> 'Όνομα ενσωμάτωσης, περιλαμβάνωντας και το ονόματα χώρου (χρησιμοποιήστε κανονικές καθέτους αντί για ανάποδες για να αποφύγετε προβλήματα).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Διαθέσιμες ενσωματώσεις', // Available migrations
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Εγκατεστημένες ενσωματώσεις', // Installed migrations
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Εμφάνιση μόνο διαθέσιμων ενσωματώσεων', // Show only available migrations
