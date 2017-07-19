@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Μετάβαση στον <a href="%1$s">ΠΕΔ</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'Το phpBB είναι ήδη εγκατεστημένο.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'Το phpBB δεν εγκαταστάθηκε ακόμα.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'Το phpBB δεν εγκαταστάθηκε ακόμα.',
 ));
 
 // Requirements translation
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Επανέλεχος απαιτήσεων',
 
-	'STAGE_REQUIREMENTS'	=> 'Έλεγχος απαιτήσεων'
+	'STAGE_REQUIREMENTS'	=> 'Έλεγχος απαιτήσεων',
 ));
 
 // General error messages
@@ -201,6 +201,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Δεν ορίστηκε όνομα βάσης δεδομένων.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Το αρχείο της βάσης δεδομένων που καθορίστηκε είναι μέσα στο δέντρο καταλόγου του συστήματος συζητήσεων σας. Θα πρέπει να τοποθετήσετε αυτό το αρχείο σε μια τοποθεσία μη προσβάσιμη μέσω του ιστού.',
 	'INST_ERR_DB_CONNECT'			=> 'Αδυναμία σύνδεσης με τη Β. Δεδομένων, δείτε το μήνυμα λάθους παρακάτω.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Και η Βάση Δεδομένων και ο κατάλογος που την περιέχει, πρέπει να έχουν δικαιώματα εγγραφής.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Κανένα μήνυμα λάθους δεν δόθηκε.',
 	'INST_ERR_PREFIX'				=> 'Πίνακες με το καθορισμένο πρόθεμα υπάρχουν ήδη, παρακαλώ επιλέξτε ένα άλλο.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Η έκδοση της MySQL που είναι εγκατεστημένη σε αυτό το μηχάνημα δεν είναι συμβατή με την “MySQL με MySQLi Extension” που έχετε επιλέξει. Παρακαλώ δοκιμάστε την επιλογή “MySQL” αντί αυτού.',
@@ -226,6 +227,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Μια νέα έκδοση δυνατοτήτων <strong>%1$s</strong> είναι διαθέσιμη. Παρακαλώ διαβάστε <a href="%2$s" title="%2$s"><strong>την ανακοίνωση έκδοσης</strong></a> για να μάθετε τι έχει να σας προσφέρει και πώς να αναβαθμίσετε.',
 	'SERVER_CONFIG'				=> 'Ρυθμίσεις διακομιστή',
 	'SCRIPT_PATH'				=> 'Διαδρομή φακέλου',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Η διαδρομή που βρίσκεται το phpBB σε σχέση με το με το όνομα domain, π.χ. <samp>/phpBB3</samp>.',
@@ -298,9 +300,10 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Δημιουργία πινάκων',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Εγγραφή bots',
-	'TASK_ADD_LANGUAGES'	=> 'Εγκατάσταση διαθέσιμων γλωσσών',
-	'TASK_ADD_MODULES'		=> 'Εγκατάσταση μονάδων',
+	'TASK_ADD_BOTS'				=> 'Εγγραφή bots',
+	'TASK_ADD_LANGUAGES'		=> 'Εγκατάσταση διαθέσιμων γλωσσών',
+	'TASK_ADD_MODULES'			=> 'Εγκατάσταση μονάδων',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Δημιουργία καταλόγου αναζήτησης',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Εγκατάσταση ενσωματωμένων επεκτάσεων',

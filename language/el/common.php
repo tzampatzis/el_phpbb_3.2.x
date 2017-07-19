@@ -183,6 +183,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Μάθετε περισσότερα',
 	'COOKIE_CONSENT_MSG'	=> 'Αυτή η ιστοσελίδα χρησιμοποιεί cookies για να επιβεβαιώσει ότι θα έχετε την καλύτερη δυνατή εμπειρία χρήσης.',
 	'COOKIE_CONSENT_OK'		=> 'Το κατάλαβα!',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Όλα τα cookies του συστήματος συζητήσεων διαγράφηκαν με επιτυχία.',
 	'CURRENT_TIME'			=> 'Τώρα είναι %s',
 
