@@ -43,14 +43,14 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<br />Ελληνική μετάφραση από το <a href="http://phpbbgr.com/">phpbbgr.com</a>',
+	'TRANSLATION_INFO'	=> '<br>Ελληνική μετάφραση από το <a href="http://phpbbgr.com/">phpbbgr.com</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Ιαν 2007 (με τα σχετικά στοιχεία)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (σχετική με την ημέρα ενεργοποιημένη)
 	'USER_LANG'			=> 'el',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -558,6 +558,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Επιλογές',
 
+	'PAGE_NOT_FOUND'		=> 'Η σελίδα που ζητήσατε δε μπορεί να βρεθεί.',
 	'PAGE_OF'				=> 'Σελίδα <strong>%1$d</strong> από <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Σελίδα %s',
 	'PASSWORD'				=> 'Κωδικός',

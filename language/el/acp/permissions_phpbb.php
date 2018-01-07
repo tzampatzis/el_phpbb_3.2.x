@@ -109,6 +109,7 @@ $lang = array_merge($lang, array(
 // Forum Permissions
 $lang = array_merge($lang, array(
 	'ACL_F_LIST'		=> 'Μπορεί να βλέπει τις Δ. Συζητήσεις',
+	'ACL_F_LIST_TOPICS' => 'Μπορεί να βλέπει θέματα',
 	'ACL_F_READ'		=> 'Μπορεί να διαβάζει τις Δ. Συζητήσεις',
 	'ACL_F_SEARCH'		=> 'Μπορεί να αναζητήσει στη Δ. Συζήτηση',
 	'ACL_F_SUBSCRIBE'	=> 'Μπορεί να εγγραφεί σε συνδρομή Δ. Συζήτησης',

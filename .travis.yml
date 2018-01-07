@@ -2,10 +2,12 @@ language: php
 
 php:
   - 5.6
+  - 7.0
+  - 7.1
 
 env:
   global:
-   - PHPBB_TAG="prep-release-3.2.1"
+   - PHPBB_TAG="3.2.x"
    - PHPBB_VERSION="3.2"
    - PHPBB_LANGUAGE="el"
 
