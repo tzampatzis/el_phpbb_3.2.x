@@ -82,6 +82,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'			=> 'Απεγκατάσταση',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Το στυλ "%s" δεν μπορεί να απεγκατασταθεί επειδή κληρονομείται από ένα ή περισσότερα άλλα στυλ.',
 	'STYLE_UNINSTALLED'			=> 'Το στυλ "%s" απεγκαταστάθηκε με επιτυχία',
+	'STYLE_PHPBB_VERSION'		=> 'Έκδοση phpBB',
 	'STYLE_USED_BY'				=> 'Χρησιμοποιείται από (συμπεριλαμβανομένων των robots)',
 	'STYLE_VERSION'				=> 'Έκδοση στύλ',
 
