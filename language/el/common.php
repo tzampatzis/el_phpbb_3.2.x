@@ -609,7 +609,8 @@ $lang = array_merge($lang, array(
 	'PREVIEW'				=> 'Προεπισκόπηση',
 	'PREVIOUS'				=> 'Προηγούμενη',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Προηγούμενο βήμα',
-	'PRIVACY'				=> 'Προσωπικό απόρρητο',
+	'PRIVACY'				=> 'Πολιτική απορρήτου',
+	'PRIVACY_LINK'			=> 'Πολιτική απορρήτου',
 	'PRIVATE_MESSAGE'		=> 'Προσωπικό μήνυμα',
 	'PRIVATE_MESSAGES'		=> 'Προσωπικά μηνύματα',
 	'PRIVATE_MESSAGING'		=> 'Ανταλλαγή προσωπικών μηνυμάτων',
@@ -734,6 +735,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'Υποβολή',
 
 	'TB'						=> 'TB',
+	'TERMS_LINK'				=> 'Όροι χρήσης',
 	'TERMS_USE'					=> 'Όροι χρήσης',
 	'TEST_CONNECTION'			=> 'Έλεγχος σύνδεσης',
 	'THE_TEAM'					=> 'Η ομάδα',
