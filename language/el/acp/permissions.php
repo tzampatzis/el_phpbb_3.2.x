@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Για περισσότερες πληροφορίες σχετικά με τη ρύθμιση και τη διαχείριση των δικαιωμάτων πρόσβασης στο σύστημα συζητήσεών σας phpBB3, παρακαλώ δείτε στην ενότητα <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
+		<p>Για περισσότερες πληροφορίες σχετικά με τη ρύθμιση και τη διαχείριση των δικαιωμάτων πρόσβασης στο σύστημα συζητήσεών σας phpBB3, παρακαλώ δείτε στην ενότητα <a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Ποτέ ',
