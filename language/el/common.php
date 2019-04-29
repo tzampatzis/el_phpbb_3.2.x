@@ -782,6 +782,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Περίληψη Θέματος',
 	'TOPIC_TITLE'		=> 'Τίτλος θέματος',
 	'TOPIC_UNAPPROVED'	=> 'Αυτό το θέμα δεν εγκρίθηκε',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Θέμα σε αναμονή έγγρισης',
+		2	=> 'Θέματα σε αναμονή έγγρισης',
+	),
 	'TOPIC_DELETED'		=> 'Αυτή η δημοσίευση διαγράφηκε.',
 	'TOTAL_ATTACHMENTS'	=> 'Συνημμένο(α)',
 	'TOTAL_LOGS'		=> array(
