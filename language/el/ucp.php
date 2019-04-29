@@ -274,6 +274,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Σημαντικές ανακοινώσεις',
 	'INVALID_USER_BIRTHDAY'		=> 'Η ημερομηνία γέννησης που εισάγατε δεν είναι μια έγκυρη ημερομηνία.',
 	'INVALID_CHARS_USERNAME'	=> 'Το όνομα μέλους περιέχει μη επιτρεπτούς χαρακτήρες.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Το όνομα μέλους περιέχει μη επιτρεπτούς χαρακτήρες (Emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Ο κωδικός πρόσβασης δεν περιέχει τους απαιτούμενους χαρακτήρες.',
 	'ITEMS_REQUIRED'			=> 'Τα πεδία που είναι σημειωμένα με * είναι υποχρεωτικά και πρέπει να συμπληρωθούν.',
 
@@ -304,6 +305,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Το μήνυμα επεξεργάστηκε με επιτυχία.',	
 	'MESSAGE_HISTORY'				=> 'Ιστορικό μηνύματος',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Αυτό το μήνυμα διαγράφτηκε από τον συγγραφέα του.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Αναφερόμενο μήνυμα',
 	'MESSAGE_SENT_ON'				=> 'ανοιχτό',
 	'MESSAGE_STORED'				=> 'Το μήνυμα στάλθηκε με επιτυχία.',
 	'MESSAGE_TO'					=> 'Προς',
