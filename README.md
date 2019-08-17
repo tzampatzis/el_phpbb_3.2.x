@@ -13,6 +13,6 @@ Greek language for phpBB 3.2.x
  * (υποστήριξη greko11)
  * (διορθώσεις - μετάφραση gtsoukn)
 
-Τρέχουσα έκδοση **3.2.7**
+Τρέχουσα έκδοση **3.2.8-RC1**
 
 Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB. [![Build Status](https://travis-ci.org/tzampatzis/el_phpbb_3.2.x.svg?branch=master)](https://travis-ci.org/tzampatzis/el_phpbb_3.2.x)
