@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Αυτή είναι μια λίστα των συνημμένων που έχετε δημοσιεύσει σε αυτή τη Δ. Συζήτηση.',
 	'ATTACHMENTS_DELETED'			=> 'Τα συνημμένα διαγράφηκαν με επιτυχία.',
 	'ATTACHMENT_DELETED'			=> 'Το συνημμένο διαγράφηκε με επιτυχία.',
+	'ATTACHMENT_LOCKED'				=> 'Αυτό το θέμα είναι κλειδωμένο, δε μπορείτε να διαγράψετε το συνημμένο.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Τα επιλεγμένα κλειδιά σύνδεσης “Να με θυμάσαι” διαγράφηκαν με επιτυχία.',
 	'AVATAR_CATEGORY'				=> 'Κατηγορία',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
