@@ -4,11 +4,10 @@ php:
   - 7.0
   - 7.1
   - 7.2
-  - 7.3
 
 env:
   global:
-   - PHPBB_TAG="release-3.2.8"
+   - PHPBB_TAG="prep-release-3.2.9"
    - PHPBB_VERSION="3.2"
    - PHPBB_LANGUAGE="el"
 
